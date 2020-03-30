@@ -1,0 +1,265 @@
+.title-content {
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: cover;
+  background-image: url("../images/menu-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.title-content .text {
+  color: #fff;
+  position: relative;
+}
+
+.title-content .text .breadcrumbs {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  z-index: 99;
+  font-weight: 300;
+}
+
+.title-content .text .breadcrumbs span {
+  color: white;
+}
+
+.title-content .text .breadcrumbs span a {
+  color: #fff;
+}
+
+.title-content .text .bread {
+  font-weight: 800;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.title-content .text .btn-primary {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.title-content .text .btn-primary:hover,
+.title-content .text .btn-primary:focus {
+  background: #fff !important;
+  color: #000000;
+}
+
+.title-content {
+  padding: 10em 0;
+}
+
+
+.menu-list {
+  padding: 60px 0;
+}
+
+.burger-category li {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.burger-category li a {
+  color: #82ae46;
+  padding: 5px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.burger-category li a.active {
+  background: #82ae46;
+  color: #fff;
+}
+
+.burger {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.burger .burger-image {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.burger .burger-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0;
+  background: #82ae46;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.burger .burger-image span.status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px 10px;
+  color: #fff;
+  font-weight: 300;
+  background: #82ae46;
+  font-size: 12px;
+}
+
+.burger .burger-image img {
+  height: 140px;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.burger .burger-image:hover img,
+.burger .burger-image:focus img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.burger .icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  opacity: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.burger .icon span {
+  color: #000000;
+}
+
+.burger:hover .icon {
+  opacity: 1;
+}
+
+.burger:hover .burger-image .overlay {
+  opacity: 0;
+}
+
+.burger .text {
+  background: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.burger .text h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.burger .text h3 a {
+  color: #000000;
+}
+
+.burger .text p.price {
+  margin-bottom: 0;
+  color: #82ae46;
+  font-weight: 400;
+}
+
+.burger .text p.price span.price-dc {
+  text-decoration: line-through;
+  color: #b3b3b3;
+}
+
+.burger .text p.price span.price-sale {
+  color: #82ae46;
+}
+
+.burger .text .pricing {
+  width: 100%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.burger .text .bottom-area {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.burger .text .bottom-area a {
+  color: #fff;
+  width: 100%;
+  background: #82ae46;
+  padding: 2px 10px;
+  margin: 0 auto;
+}
+
+.burger .text .bottom-area .m-auto {
+  margin: 0 auto;
+}
+
+.burger:hover {
+  -webkit-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+}
+
+.burger:hover .pricing {
+  opacity: 0;
+}
+
+.burger:hover .text .bottom-area {
+  opacity: 1;
+}
